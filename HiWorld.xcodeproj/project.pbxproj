@@ -35,6 +35,7 @@
 		B18DD82A14F7FC1B00A5C10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18DD82914F7FC1B00A5C10B /* AppDelegate.m */; };
 		B18DD82D14F7FC1B00A5C10B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18DD82C14F7FC1B00A5C10B /* MainViewController.m */; };
 		B18DD82F14F7FC1B00A5C10B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18DD82E14F7FC1B00A5C10B /* MainViewController.xib */; };
+		B18DD83D14F800E400A5C10B /* www in Resources */ = {isa = PBXBuildFile; fileRef = B18DD83C14F800E400A5C10B /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +53,10 @@
 		B18DD7FD14F7FC1A00A5C10B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B18DD7FF14F7FC1A00A5C10B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B18DD80114F7FC1A00A5C10B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		B18DD80514F7FC1B00A5C10B /* HiWorld-Info.plist */ = {isa = PBXFileReference; path = "HiWorld-Info.plist"; sourceTree = "<group>"; };
+		B18DD80514F7FC1B00A5C10B /* HiWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiWorld-Info.plist"; sourceTree = "<group>"; };
 		B18DD80714F7FC1B00A5C10B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B18DD80914F7FC1B00A5C10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B18DD80B14F7FC1B00A5C10B /* HiWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HiWorld-Prefix.pch"; sourceTree = "<group>"; };
+		B18DD80B14F7FC1B00A5C10B /* HiWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiWorld-Prefix.pch"; sourceTree = "<group>"; };
 		B18DD80C14F7FC1B00A5C10B /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		B18DD81114F7FC1B00A5C10B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B18DD81514F7FC1B00A5C10B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -66,12 +67,13 @@
 		B18DD82114F7FC1B00A5C10B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		B18DD82314F7FC1B00A5C10B /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		B18DD82514F7FC1B00A5C10B /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		B18DD82814F7FC1B00A5C10B /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		B18DD82814F7FC1B00A5C10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		B18DD82914F7FC1B00A5C10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		B18DD82B14F7FC1B00A5C10B /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		B18DD82B14F7FC1B00A5C10B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		B18DD82C14F7FC1B00A5C10B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		B18DD82E14F7FC1B00A5C10B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		B18DD83114F7FC1B00A5C10B /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		B18DD83114F7FC1B00A5C10B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		B18DD83C14F800E400A5C10B /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		B18DD7D714F7FC1A00A5C10B = {
 			isa = PBXGroup;
 			children = (
+				B18DD83C14F800E400A5C10B /* www */,
 				B18DD80314F7FC1A00A5C10B /* HiWorld */,
 				B18DD7E814F7FC1A00A5C10B /* Frameworks */,
 				B18DD7E614F7FC1A00A5C10B /* Products */,
@@ -299,6 +302,7 @@
 				B18DD82414F7FC1B00A5C10B /* Capture.bundle in Resources */,
 				B18DD82614F7FC1B00A5C10B /* PhoneGap.plist in Resources */,
 				B18DD82F14F7FC1B00A5C10B /* MainViewController.xib in Resources */,
+				B18DD83D14F800E400A5C10B /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				B18DD83614F7FC1B00A5C10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
