@@ -17,7 +17,7 @@
 		<string>icon-72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>ru.xpparty.teamgame</string>
+	<string>com.xpparty.HiWorld</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
